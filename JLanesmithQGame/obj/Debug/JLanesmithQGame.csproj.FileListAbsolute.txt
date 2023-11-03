@@ -1,0 +1,11 @@
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\bin\Debug\JLanesmithQGame.exe.config
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\bin\Debug\JLanesmithQGame.exe
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\bin\Debug\JLanesmithQGame.pdb
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.csproj.AssemblyReference.cache
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.ControlPanelForm.resources
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.DesignForm.resources
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.Properties.Resources.resources
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.csproj.GenerateResource.cache
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.csproj.CoreCompileInputs.cache
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.exe
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.pdb
