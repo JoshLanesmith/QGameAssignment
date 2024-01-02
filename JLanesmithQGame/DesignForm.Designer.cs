@@ -62,8 +62,8 @@
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1619, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1214, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -73,20 +73,20 @@
             this.tsmiSave,
             this.tsmiClose});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // tsmiSave
             // 
             this.tsmiSave.Name = "tsmiSave";
-            this.tsmiSave.Size = new System.Drawing.Size(128, 26);
+            this.tsmiSave.Size = new System.Drawing.Size(103, 22);
             this.tsmiSave.Text = "Save";
             this.tsmiSave.Click += new System.EventHandler(this.tsmiSave_Click);
             // 
             // tsmiClose
             // 
             this.tsmiClose.Name = "tsmiClose";
-            this.tsmiClose.Size = new System.Drawing.Size(128, 26);
+            this.tsmiClose.Size = new System.Drawing.Size(103, 22);
             this.tsmiClose.Text = "Close";
             this.tsmiClose.Click += new System.EventHandler(this.tsmiClose_Click);
             // 
@@ -99,20 +99,20 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.txtColumns);
             this.panel1.Controls.Add(this.txtRows);
-            this.panel1.Location = new System.Drawing.Point(0, 27);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Location = new System.Drawing.Point(0, 22);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1618, 73);
+            this.panel1.Size = new System.Drawing.Size(1214, 60);
             this.panel1.TabIndex = 1;
             // 
             // btnGenerate
             // 
             this.btnGenerate.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnGenerate.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnGenerate.Location = new System.Drawing.Point(435, 18);
-            this.btnGenerate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnGenerate.Location = new System.Drawing.Point(326, 15);
+            this.btnGenerate.Margin = new System.Windows.Forms.Padding(2);
             this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(119, 31);
+            this.btnGenerate.Size = new System.Drawing.Size(89, 25);
             this.btnGenerate.TabIndex = 3;
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.UseVisualStyleBackColor = false;
@@ -121,36 +121,38 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(227, 26);
+            this.label9.Location = new System.Drawing.Point(170, 21);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(62, 16);
+            this.label9.Size = new System.Drawing.Size(50, 13);
             this.label9.TabIndex = 2;
             this.label9.Text = "Columns:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(35, 26);
+            this.label8.Location = new System.Drawing.Point(26, 21);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 16);
+            this.label8.Size = new System.Drawing.Size(37, 13);
             this.label8.TabIndex = 1;
             this.label8.Text = "Rows:";
             // 
             // txtColumns
             // 
             this.txtColumns.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtColumns.Location = new System.Drawing.Point(293, 23);
-            this.txtColumns.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtColumns.Location = new System.Drawing.Point(220, 19);
+            this.txtColumns.Margin = new System.Windows.Forms.Padding(2);
             this.txtColumns.Name = "txtColumns";
-            this.txtColumns.Size = new System.Drawing.Size(100, 22);
+            this.txtColumns.Size = new System.Drawing.Size(76, 20);
             this.txtColumns.TabIndex = 1;
             // 
             // txtRows
             // 
-            this.txtRows.Location = new System.Drawing.Point(85, 23);
-            this.txtRows.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtRows.Location = new System.Drawing.Point(64, 19);
+            this.txtRows.Margin = new System.Windows.Forms.Padding(2);
             this.txtRows.Name = "txtRows";
-            this.txtRows.Size = new System.Drawing.Size(100, 22);
+            this.txtRows.Size = new System.Drawing.Size(76, 20);
             this.txtRows.TabIndex = 0;
             // 
             // pnlToolBox
@@ -163,10 +165,10 @@
             this.pnlToolBox.Controls.Add(this.btnWall);
             this.pnlToolBox.Controls.Add(this.btnEmpty);
             this.pnlToolBox.Controls.Add(this.label1);
-            this.pnlToolBox.Location = new System.Drawing.Point(0, 101);
-            this.pnlToolBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlToolBox.Location = new System.Drawing.Point(0, 82);
+            this.pnlToolBox.Margin = new System.Windows.Forms.Padding(2);
             this.pnlToolBox.Name = "pnlToolBox";
-            this.pnlToolBox.Size = new System.Drawing.Size(187, 844);
+            this.pnlToolBox.Size = new System.Drawing.Size(140, 686);
             this.pnlToolBox.TabIndex = 2;
             // 
             // btnGreenBox
@@ -175,9 +177,10 @@
             this.btnGreenBox.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGreenBox.ImageIndex = 5;
             this.btnGreenBox.ImageList = this.imageListTools;
-            this.btnGreenBox.Location = new System.Drawing.Point(8, 423);
+            this.btnGreenBox.Location = new System.Drawing.Point(6, 344);
+            this.btnGreenBox.Margin = new System.Windows.Forms.Padding(2);
             this.btnGreenBox.Name = "btnGreenBox";
-            this.btnGreenBox.Size = new System.Drawing.Size(165, 70);
+            this.btnGreenBox.Size = new System.Drawing.Size(124, 57);
             this.btnGreenBox.TabIndex = 12;
             this.btnGreenBox.Text = "Green Box";
             this.btnGreenBox.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -201,9 +204,10 @@
             this.btnRedBox.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRedBox.ImageIndex = 4;
             this.btnRedBox.ImageList = this.imageListTools;
-            this.btnRedBox.Location = new System.Drawing.Point(8, 347);
+            this.btnRedBox.Location = new System.Drawing.Point(6, 282);
+            this.btnRedBox.Margin = new System.Windows.Forms.Padding(2);
             this.btnRedBox.Name = "btnRedBox";
-            this.btnRedBox.Size = new System.Drawing.Size(165, 70);
+            this.btnRedBox.Size = new System.Drawing.Size(124, 57);
             this.btnRedBox.TabIndex = 11;
             this.btnRedBox.Text = "Red Box";
             this.btnRedBox.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -216,9 +220,10 @@
             this.btnGreenDoor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnGreenDoor.ImageIndex = 3;
             this.btnGreenDoor.ImageList = this.imageListTools;
-            this.btnGreenDoor.Location = new System.Drawing.Point(8, 271);
+            this.btnGreenDoor.Location = new System.Drawing.Point(6, 220);
+            this.btnGreenDoor.Margin = new System.Windows.Forms.Padding(2);
             this.btnGreenDoor.Name = "btnGreenDoor";
-            this.btnGreenDoor.Size = new System.Drawing.Size(165, 70);
+            this.btnGreenDoor.Size = new System.Drawing.Size(124, 57);
             this.btnGreenDoor.TabIndex = 10;
             this.btnGreenDoor.Text = "Green Door";
             this.btnGreenDoor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -231,9 +236,10 @@
             this.btnRedDoor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRedDoor.ImageIndex = 2;
             this.btnRedDoor.ImageList = this.imageListTools;
-            this.btnRedDoor.Location = new System.Drawing.Point(8, 195);
+            this.btnRedDoor.Location = new System.Drawing.Point(6, 158);
+            this.btnRedDoor.Margin = new System.Windows.Forms.Padding(2);
             this.btnRedDoor.Name = "btnRedDoor";
-            this.btnRedDoor.Size = new System.Drawing.Size(165, 70);
+            this.btnRedDoor.Size = new System.Drawing.Size(124, 57);
             this.btnRedDoor.TabIndex = 9;
             this.btnRedDoor.Text = "Red Door";
             this.btnRedDoor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -246,9 +252,10 @@
             this.btnWall.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnWall.ImageIndex = 1;
             this.btnWall.ImageList = this.imageListTools;
-            this.btnWall.Location = new System.Drawing.Point(8, 119);
+            this.btnWall.Location = new System.Drawing.Point(6, 97);
+            this.btnWall.Margin = new System.Windows.Forms.Padding(2);
             this.btnWall.Name = "btnWall";
-            this.btnWall.Size = new System.Drawing.Size(165, 70);
+            this.btnWall.Size = new System.Drawing.Size(124, 57);
             this.btnWall.TabIndex = 8;
             this.btnWall.Text = "Wall";
             this.btnWall.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -261,9 +268,10 @@
             this.btnEmpty.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEmpty.ImageIndex = 0;
             this.btnEmpty.ImageList = this.imageListTools;
-            this.btnEmpty.Location = new System.Drawing.Point(8, 43);
+            this.btnEmpty.Location = new System.Drawing.Point(6, 35);
+            this.btnEmpty.Margin = new System.Windows.Forms.Padding(2);
             this.btnEmpty.Name = "btnEmpty";
-            this.btnEmpty.Size = new System.Drawing.Size(165, 70);
+            this.btnEmpty.Size = new System.Drawing.Size(124, 57);
             this.btnEmpty.TabIndex = 7;
             this.btnEmpty.Text = "Empty";
             this.btnEmpty.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -273,22 +281,23 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(59, 15);
+            this.label1.Location = new System.Drawing.Point(44, 12);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 16);
+            this.label1.Size = new System.Drawing.Size(45, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Toolbox";
             // 
             // DesignForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1619, 942);
+            this.ClientSize = new System.Drawing.Size(1214, 765);
             this.Controls.Add(this.pnlToolBox);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DesignForm";
             this.Text = "Design Form";
             this.menuStrip1.ResumeLayout(false);

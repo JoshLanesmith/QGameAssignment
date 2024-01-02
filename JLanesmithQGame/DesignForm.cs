@@ -1,26 +1,24 @@
 ﻿/* 
  * DesignForm.cs
- * Assignment 2
+ * Assignment 3
  * Revision History
  *      Josh Lanesmith 2023-10-30: Created
+ *      Josh Lanesmith 2023-11-27: Updated for assignment 3
  */
 using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Reflection.Emit;
-using System.Runtime.Remoting.Messaging;
 using System.Windows.Forms;
 using static JLanesmithQGame.GameBoard;
 
 namespace JLanesmithQGame
 {
-    /// <summary>
-    /// Design form to allow user to design a new level for QGame
-    /// </summary>
-    public partial class DesignForm : Form
+	/// <summary>
+	/// Design form to allow user to design a new level for QGame
+	/// </summary>
+	public partial class DesignForm : Form
     {
         // Declare global variable
-        private GameBoard gameBoard;
+        private GameBoardDesigner gameBoardDesigner;
         private Button selectedTool;
         private TileType selectedTileType;
 
@@ -60,7 +58,7 @@ namespace JLanesmithQGame
             int columns;
 
             // Check if a GameBoard already exists and display warning message to confirm if user wants to overwrite current GameBoard
-            if (gameBoard != null)
+            if (gameBoardDesigner != null)
             {
                 DialogResult overrideBoard = MessageBox.Show("Do you want to create a new level?\n If you do, the current level will be lost",
                     "QGame", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -92,13 +90,13 @@ namespace JLanesmithQGame
             // Gernerate new game board or overwrite current game board
             try
             {
-                if (gameBoard == null)
+                if (gameBoardDesigner == null)
                 {
-                    gameBoard = new GameBoard(this, rows, columns);
+                    gameBoardDesigner = new GameBoardDesigner(this, rows, columns);
                 }
                 else
                 {
-                    gameBoard.ResetBoard(rows, columns);
+                    gameBoardDesigner.ResetBoard(rows, columns);
                 }
             }
             catch (ArgumentOutOfRangeException ex)
@@ -110,7 +108,7 @@ namespace JLanesmithQGame
         private void tsmiSave_Click(object sender, EventArgs e)
         {
             // Display error message if a user attempts to save before generating a game board
-            if (gameBoard == null)
+            if (gameBoardDesigner == null)
             {
                 MessageBox.Show("Error: need to create a board before saving", "QGame", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -131,7 +129,7 @@ namespace JLanesmithQGame
                     try
                     {
                         string fName = dlgSave.FileName;
-                        string result = gameBoard.SaveBoard(fName);
+                        string result = gameBoardDesigner.SaveBoard(fName);
                         MessageBox.Show(result, "QGame", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     catch (Exception ex)

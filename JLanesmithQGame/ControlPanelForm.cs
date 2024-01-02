@@ -1,8 +1,9 @@
 ﻿/* 
  * ControlPanelForm.cs
- * Assignment 2
+ * Assignment 3
  * Revision History
  *      Josh Lanesmith 2023-10-30: Created
+ *      Josh Lanesmith 2023-11-27: Updated for assignment 3
  */
 using System;
 using System.Windows.Forms;
@@ -29,6 +30,13 @@ namespace JLanesmithQGame
             DesignForm designForm = new DesignForm();
 
             designForm.Show();
+        }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            PlayForm playForm = new PlayForm();
+
+            playForm.Show();
         }
     }
 }

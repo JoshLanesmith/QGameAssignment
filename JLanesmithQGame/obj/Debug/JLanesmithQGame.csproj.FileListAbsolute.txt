@@ -9,3 +9,4 @@ C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGam
 C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.csproj.CoreCompileInputs.cache
 C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.exe
 C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.pdb
+C:\c#programs\game-prog\JLanesmithQGame\JLanesmithQGame\obj\Debug\JLanesmithQGame.PlayForm.resources

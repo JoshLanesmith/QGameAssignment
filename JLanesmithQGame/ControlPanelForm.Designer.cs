@@ -35,9 +35,10 @@
             // 
             // btnDesign
             // 
-            this.btnDesign.Location = new System.Drawing.Point(64, 33);
+            this.btnDesign.Location = new System.Drawing.Point(48, 27);
+            this.btnDesign.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDesign.Name = "btnDesign";
-            this.btnDesign.Size = new System.Drawing.Size(165, 74);
+            this.btnDesign.Size = new System.Drawing.Size(124, 60);
             this.btnDesign.TabIndex = 0;
             this.btnDesign.Text = "Design";
             this.btnDesign.UseVisualStyleBackColor = true;
@@ -45,18 +46,21 @@
             // 
             // btnPlay
             // 
-            this.btnPlay.Location = new System.Drawing.Point(294, 33);
+            this.btnPlay.Location = new System.Drawing.Point(220, 27);
+            this.btnPlay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(165, 74);
+            this.btnPlay.Size = new System.Drawing.Size(124, 60);
             this.btnPlay.TabIndex = 1;
             this.btnPlay.Text = "Play";
             this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(168, 149);
+            this.btnExit.Location = new System.Drawing.Point(126, 121);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(165, 74);
+            this.btnExit.Size = new System.Drawing.Size(124, 60);
             this.btnExit.TabIndex = 2;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -64,12 +68,13 @@
             // 
             // ControlPanelForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(521, 258);
+            this.ClientSize = new System.Drawing.Size(391, 210);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.btnDesign);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ControlPanelForm";
             this.Text = "QGame Control Panel";
             this.ResumeLayout(false);
